@@ -1,0 +1,20 @@
+{
+    "extends": ["airbnb", "prettier", "prettier/react"],
+    "plugins": ["react", "prettier"],
+    "rules": {
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [".js", "jsx"]
+            }
+        ],
+        "prettier/prettier": "error",
+        "max-len": ["error", 80],
+        "react/prefer-stateless-function": 0,
+        "react/button-has-type": 0
+    },
+    "env": {
+        "browser": true
+    },
+    "parser": "babel-eslint"
+}
