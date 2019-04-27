@@ -20,7 +20,7 @@ const StyledContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     align-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     > div {
         background: #373142;
         color: #fff;
@@ -28,8 +28,20 @@ const StyledContainer = styled.div`
         height: 100px;
         text-align: center;
         line-height: 100px;
+        border: 1px solid red;
         &:nth-child(2) {
             height: 150px;
+            /* flex-grow 1; flex-shrink 0; flex basis: auto */
+            flex: 1 0 auto;
+            /* flex-grow: 1;
+            flex-basis: 200px; */
+            /* order: 2; */
+        }
+        &:nth-child(3) {
+            height: 150px;
+            flex-grow: 3;
+            /* order: 1; */
+            align-self: flex-end;
         }
     }
 `;
