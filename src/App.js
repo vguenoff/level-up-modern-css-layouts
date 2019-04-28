@@ -3,7 +3,8 @@ import { createGlobalStyle } from 'styled-components';
 
 // import Lesson02 from './components/Lesson02';
 // import Lesson03 from './components/Lesson03';
-import Lesson04 from './components/Lesson04';
+// import Lesson04 from './components/Lesson04';
+import Lesson05 from './components/Lesson04';
 
 function App() {
     return (
@@ -11,7 +12,8 @@ function App() {
             <GlobalStyle />
             {/* <Lesson02 /> */}
             {/* <Lesson03 /> */}
-            <Lesson04 />
+            {/* <Lesson04 /> */}
+            <Lesson05 />
         </>
     );
 }
