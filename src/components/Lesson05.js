@@ -14,13 +14,17 @@ function Lesson05() {
             <div>7</div>
             <div>8</div>
             <div>9</div>
+            <div>10</div>
         </StyledContainer>
     );
 }
 
 const StyledContainer = styled.div`
     display: grid;
-    grid: 100px 100px / 100px auto 100px 100px;
+    /* grid: 100px / repeat(3, 100px) auto; */
+    /* grid: 100px / repeat(3, auto 50px); */
+    /* grid: 100px / 1fr 10fr 1fr; 1fr = 1fraction */
+    grid: 100px / repeat(2, 1fr 2fr); /* 1fr = 1fraction */
     grid-gap: 10px;
     > div {
         background: #373142;

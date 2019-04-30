@@ -4,7 +4,7 @@ import { createGlobalStyle } from 'styled-components';
 // import Lesson02 from './components/Lesson02';
 // import Lesson03 from './components/Lesson03';
 // import Lesson04 from './components/Lesson04';
-import Lesson05 from './components/Lesson04';
+import Lesson05 from './components/Lesson05';
 
 function App() {
     return (
