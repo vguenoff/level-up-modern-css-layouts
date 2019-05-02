@@ -28,6 +28,21 @@ const StyledContainer = styled.div`
         color: #fff;
         text-align: center;
         line-height: 100px;
+
+        :nth-child(1) {
+            grid-column: 3 / -1; /* takes the whole line */
+        }
+        :nth-child(2) {
+            grid-column: 1 / 3;
+            /* grid-row: 1 / span 3; */
+            grid-row: 1 / span 4;
+            z-index: 10;
+            /* Things could be overlaid and we can use z-index with grid! */
+        }
+        :nth-child(3) {
+            grid-column: 4 / -1;
+            grid-row: 4 / span 2;
+        }
     }
 `;
 
