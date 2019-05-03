@@ -5,7 +5,8 @@ import { createGlobalStyle } from 'styled-components';
 // import Lesson03 from './components/Lesson03';
 // import Lesson04 from './components/Lesson04';
 // import Lesson05 from './components/Lesson05';
-import Lesson06 from './components/Lesson06';
+// import Lesson06 from './components/Lesson06';
+import Lesson07 from './components/Lesson07';
 
 function App() {
     return (
@@ -15,7 +16,7 @@ function App() {
             {/* <Lesson03 /> */}
             {/* <Lesson04 /> */}
             {/* <Lesson05 /> */}
-            <Lesson06 />
+            <Lesson07 />
         </>
     );
 }
