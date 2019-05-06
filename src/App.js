@@ -6,7 +6,9 @@ import { createGlobalStyle } from 'styled-components';
 // import Lesson04 from './components/Lesson04';
 // import Lesson05 from './components/Lesson05';
 // import Lesson06 from './components/Lesson06';
-import Lesson07 from './components/Lesson07';
+// import Lesson07 from './components/Lesson07';
+// import Lesson08 from './components/Lesson08';
+import Lesson09 from './components/Lesson09';
 
 function App() {
     return (
@@ -16,7 +18,9 @@ function App() {
             {/* <Lesson03 /> */}
             {/* <Lesson04 /> */}
             {/* <Lesson05 /> */}
-            <Lesson07 />
+            {/* <Lesson07 /> */}
+            {/* <Lesson08 /> */}
+            <Lesson09 />
         </>
     );
 }
@@ -31,12 +35,13 @@ const GlobalStyle = createGlobalStyle`
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
-
     code {
         font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
             monospace;
     }
-
+    :root {
+        --box-color: #373142;
+    }
 `;
 
 export default App;
