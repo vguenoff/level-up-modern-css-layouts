@@ -1,18 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// Flexbox container children
-function Lesson03() {
-    return (
-        <StyledContainer>
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-        </StyledContainer>
-    );
-}
-
 const StyledContainer = styled.div`
     border: dashed 2px red;
     display: flex;
@@ -45,5 +33,15 @@ const StyledContainer = styled.div`
         }
     }
 `;
+
+// Flexbox container children
+const Lesson03 = () => (
+    <StyledContainer>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </StyledContainer>
+);
 
 export default Lesson03;

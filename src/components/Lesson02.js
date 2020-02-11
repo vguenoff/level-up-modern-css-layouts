@@ -2,17 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 // How to get started with flexbox
-function Lesson02() {
-    return (
-        <StyledContainer>
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-        </StyledContainer>
-    );
-}
-
 const StyledContainer = styled.div`
     border: 2px dashed red;
     box-sizing: border-box;
@@ -40,5 +29,14 @@ const StyledContainer = styled.div`
         }
     }
 `;
+
+const Lesson02 = () => (
+    <StyledContainer>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </StyledContainer>
+);
 
 export default Lesson02;

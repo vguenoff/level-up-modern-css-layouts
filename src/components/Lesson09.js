@@ -1,24 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// CSS viewport units
-function Lesson09() {
-    return (
-        <StyledContainer>
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-            <div>5</div>
-            <div>6</div>
-            <div>7</div>
-            <div>8</div>
-            <div>9</div>
-            <div>10</div>
-        </StyledContainer>
-    );
-}
-
 const StyledContainer = styled.div`
     height: 70vmax;
     display: grid;
@@ -40,5 +22,23 @@ const StyledContainer = styled.div`
         }
     }
 `;
+
+// CSS viewport units
+const Lesson09 = () => {
+    return (
+        <StyledContainer>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+        </StyledContainer>
+    );
+};
 
 export default Lesson09;
