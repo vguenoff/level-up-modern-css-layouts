@@ -10,6 +10,7 @@ const StyledContainer = styled.div`
     align-content: space-between;
     /* flex-wrap: wrap; */
     > div {
+        box-sizing: border-box;
         background: #373142;
         color: #fff;
         width: 100px;
@@ -29,7 +30,7 @@ const StyledContainer = styled.div`
             height: 150px;
             flex-grow: 3;
             /* order: 1; */
-            align-self: flex-end;
+            /* align-self: flex-end; */
         }
     }
 `;

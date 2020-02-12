@@ -1,6 +1,7 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 
+import HolyGrail from './components/HolyGrail';
 import Lesson02 from './components/Lesson02';
 import Lesson03 from './components/Lesson03';
 import Lesson04 from './components/Lesson04';
@@ -14,7 +15,8 @@ function App() {
     return (
         <>
             <GlobalStyle />
-            <Lesson02 />
+            <HolyGrail />
+            {/* <Lesson02 /> */}
             {/* <Lesson03 /> */}
             {/* <Lesson04 /> */}
             {/* <Lesson05 /> */}

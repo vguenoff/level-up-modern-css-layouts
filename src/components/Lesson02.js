@@ -8,13 +8,10 @@ const StyledContainer = styled.div`
     height: 100vh;
 
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: space-around;
     align-items: center;
-    align-content: flex-end;
-    /* align-content: center; */
-    /* align-items: baseline; */
-    flex-wrap: wrap;
+    align-content: center;
 
     > div {
         background: #373142;
@@ -23,9 +20,10 @@ const StyledContainer = styled.div`
         height: 100px;
         text-align: center;
         line-height: 150px;
+        border: 1px solid red;
 
         &:nth-child(2) {
-            height: 250px;
+            height: 150px;
         }
     }
 `;
